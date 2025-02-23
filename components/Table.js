@@ -35,7 +35,6 @@ const DataTable = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (editingId) {
-      // Update existing employee
       const updatedData = data.map((item) => {
         if (item.id === editingId) {
           return {
@@ -51,7 +50,6 @@ const DataTable = () => {
       });
       setData(updatedData);
     } else {
-      // Add new employee
       const newEmployee = {
         id: Date.now(),
         name,
