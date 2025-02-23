@@ -1,0 +1,42 @@
+export const employees = [
+  {
+    id: 1,
+    name: "John Doe",
+    email: "johndoe@example.com",
+    birthday: "1995-08-15",
+    salary: 60000,
+    active: "Active",
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    email: "janesmith@example.com",
+    birthday: "1988-04-22",
+    salary: 75000,
+    active: "In Active",
+  },
+  {
+    id: 3,
+    name: "Michael Johnson",
+    email: "michaeljohnson@example.com",
+    birthday: "1992-11-10",
+    salary: 68000,
+    active: "Active",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    email: "emilydavis@example.com",
+    birthday: "1999-06-30",
+    salary: 55000,
+    active: "Active",
+  },
+  {
+    id: 5,
+    name: "Robert Brown",
+    email: "robertbrown@example.com",
+    birthday: "1985-02-18",
+    salary: 82000,
+    active: "In Active",
+  },
+];
