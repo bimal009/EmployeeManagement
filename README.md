@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Employee Management App
 
-## Getting Started
+## Overview
+The **Employee Management App** is a simple CRUD (Create, Read, Update, Delete) application built using **React, ShadCN UI, and Tailwind CSS**. This application allows users to manage employee data efficiently by adding, editing, and deleting employee records.
 
-First, run the development server:
+## Features
+- 🆕 **Add Employees** – Easily add new employees with relevant details.
+- ✏️ **Edit Employees** – Modify existing employee details.
+- ❌ **Delete Employees** – Remove employees from the list.
+- 📋 **View Employee List** – Displays all employees in a structured table format.
+- 🎨 **Responsive UI** – Styled with Tailwind CSS and ShadCN UI for a modern and clean interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **React** – Frontend framework
+- **ShadCN UI** – Component library for UI elements
+- **Tailwind CSS** – Utility-first CSS framework
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+To set up the project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/bimal009/EmployeeManagement.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate to the project directory:
+   ```sh
+   cd employeeManagement
+   ```
 
-## Learn More
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open your browser and go to:
+   ```sh
+   http://localhost:5173
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Usage
+1. Click the **Add Employee** button to enter employee details.
+2. Use the **Edit** button to modify an employee’s information.
+3. Click the **Delete** button to remove an employee.
+4. All data updates reflect instantly in the UI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
+Feel free to contribute to this project! You can fork the repository and submit a pull request with your improvements.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the **MIT License**.
+
+---
+Made with ❤️ using React, ShadCN UI, and Tailwind CSS.
+
